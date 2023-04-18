@@ -1,0 +1,254 @@
+@font-face{
+    font-family:"Sahel";
+    src: url("../Fonts/Sahel-FD.ttf");
+}
+body{
+    font-family:"Sahel" !important;
+}
+a{
+    text-decoration: none;
+    
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 2 !important;
+}
+.nav-color:hover{
+    color: aliceblue;
+    
+}
+.G{
+    font-size: 35px;
+    color: rgb(64, 240, 16);
+}
+.A{
+    color: red;
+}
+.M{
+    color: rgb(113, 113, 223);
+}
+.E{
+    color: indianred;
+}
+
+.playstation{
+    text-align: right;
+}
+ .background:hover{
+    
+    color: rgb(27, 94, 153);
+    border-color:aliceblue ;
+}
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/bg-blue.jpg") top center no-repeat;
+    background-size: cover;
+}
+/* Values */
+.values{
+width: 100%;
+height: 150vh;
+background: url("../images/DaulShock.png") top center no-repeat;
+background-size: cover;
+}
+.cards{
+    background:fixed;
+    border: 0px;
+    margin-top: 250px;
+    margin-right:60px ;
+    color: aliceblue;
+    
+}
+.cards i{
+  font-size: 45px;
+}
+/* aside */
+.aside{
+    color: rgb(199, 159, 215);
+    background-color: rgb(12, 21, 36);
+    align-items: center;
+}
+.bg-gallery{
+    background-color: rgb(51, 0, 90);
+}
+.aside h6{
+    margin-top: 40px;
+    font-size:18px ;
+}
+.aside p{
+    font-size:20px ;
+    margin-right:20px;
+}
+.aside a{
+    margin-right:20px;
+    line-height: 2.5 ;
+    font-size: 20px;
+}
+.aside a:link{
+    color:rgb(199, 159, 215) ;
+}
+.aside a:hover{
+    color: goldenrod;
+}
+/* Gallery */
+.container{
+max-width: 960px;
+margin-inline: auto;
+padding: 100px 15px;
+}
+.title {
+margin-bottom: 50px;
+}
+.title span {
+display: block;
+}
+.title .primary {
+font-size: clamp(26px, 5vw, 52px);
+text-transform: uppercase;
+color: #fff;
+}
+.title .secondary {
+font-size: clamp(14px, 2.5vw, 16px);
+font-weight: 400;
+color: #d6d6e0;
+}
+.gallery-wrapper {
+display: flex;
+}
+.gallery-item {
+position: relative;
+isolation: isolate;
+display: flex;
+flex: 1;
+height: 500px;
+padding: 25px;
+opacity: 1;
+overflow: hidden;
+transition: flex 0.5s, opacity 0.25s;
+}
+
+.gallery-item:not(:hover){
+opacity: 0.75;
+}
+.item-image{
+position: absolute;
+top: 0;
+right: 0;
+z-index: -1;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.item-description {
+align-self: flex-end;
+text-transform: uppercase;
+color: #fff;
+}
+.name {
+font-size: 37px;
+background: linear-gradient(
+90deg,#f32d5b,#ff009b);
+padding-inline: 10px;
+transform: translatey(-10px);
+}
+.role {
+display: inline-block;
+background: linear-gradient(90deg,
+#413649,#0086c7);
+padding: 10px;
+box-shadow: 0 1px 10px
+rgba(0, 0, 0, 0.2);
+transform: translatey(10px);
+}
+.name,
+.role {
+opacity: 0;
+transition: opacity 0.25s,
+transform 0.3s;
+transition-delay: .35s;
+}
+.gallery-item:hover .name,
+.gallery-item:hover .role {
+opacity: 1;
+transform: translateY(0);
+}
+/* Carousel */
+.slide1{
+    background-color: rgb(45, 195, 7);
+    width:100%;
+    height: 100vh;
+    
+}
+.slide1-div{
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 312px;
+}
+.slide2{
+    background-color: rgb(16, 4, 186);
+    width:100%;
+    height: 100vh;
+}
+.slide2-div{
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 312px;
+}
+.slide3{
+    background-color: rgb(196, 9, 9);
+    width:100%;
+    height: 100vh;
+}
+.slide3-div{
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 312px;
+}
+.bg-aside2{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/ps-xbox.jpg") top center no-repeat;
+    background-size: cover;
+    }
+.aside4{
+    position:relative;
+    background: rgba(0, 0, 0, 0.592);
+    width: 520px;
+    height: 100vh;
+    margin-right: 1000px;
+    margin-left: 0px;
+}
+.h6-aside4{
+    font-size: 28px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.p-aside4{
+    color: aliceblue;
+    font-size: 14px;
+   
+}
+.btn{
+    width: 240px;
+    height: 40px;
+}
+.card-aside{
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+   
+}
